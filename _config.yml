@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
-include:
-  - mqtt_topics.md
+
+navbar-links:
+  MQTT: "mqtt/index"
