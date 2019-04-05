@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
 
-include:
-  - _pages
+docs:
+
+- title: MQTT
+  url: mqtt.md
