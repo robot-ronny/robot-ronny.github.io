@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 
 navbar-links:
   MQTT: "mqtt/index"
+  MQTT2: "mqtt_topics"
