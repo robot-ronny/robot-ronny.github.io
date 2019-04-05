@@ -1,6 +1,1 @@
 theme: jekyll-theme-cayman
-
-docs:
-
-- title: MQTT
-  url: mqtt.md
