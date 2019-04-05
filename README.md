@@ -10,5 +10,5 @@ ronny/go/{forward, backward, left, right}
 ```
 payload:
 ```
-{"interval": 50, "speed", 100}`
+{"interval": 50, "speed", 100}
 ```
