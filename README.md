@@ -46,16 +46,26 @@ Firmware repository `rr-wheels`
 
 ### AT Commands
 - `AT$STOP`
-- `AT$LEFT`
-- `AT$RIGHT`
-- `AT$FORWARD`
-- `AT$BACKWARD`
+- `AT$LEFT=1000` - rotate left for 1000 milliseconds
+- `AT$LEFT=2000,180` - rotate left for 1000 milliseconds with 180 PWM (0-255, the robot moves with PWM>50)
+- `AT$RIGHT=1000`
+- `AT$FORWARD=1000`
+- `AT$BACKWARD=1000`
 - `AT$HELP`
 
 
 ## MQTT Topics
-### Move
-**Chassis**
+
+All running scripts and services are using MQTT to control them. Here is a list of MQTT topics.
+
+### Eyes
+
+- `ronny/eyes/open` open eyes "OO"
+- `ronny/eyes/x` "XX"
+- `ronny/eyes/2` - display any 2 characters from the payload
+- `ronny/eyes/tiny` - tiny dot in each eye
+
+### Wheels
 
 topic: 
 ```
@@ -65,3 +75,15 @@ payload:
 ```
 {"interval": 50, "speed", 100}
 ```
+
+### Body servos
+
+- `ronny/left/arm/0`
+- `ronny/left/arm/1`
+- `ronny/left/elbow/1`
+- `ronny/left/elbow/0`
+- `ronny/left/chest`
+
+## Firebase
+
+Firebase is used to communicate with Google Assistant
