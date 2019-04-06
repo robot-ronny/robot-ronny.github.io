@@ -2,9 +2,3 @@ theme: jekyll-theme-cayman
 
 - title: Home
   url: /
-
-- title: Menu
-  url: /_pages/
-  sublinks:
-    - title: MQTT
-      url: /_pages/mqtt
