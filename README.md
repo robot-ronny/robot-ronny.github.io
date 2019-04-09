@@ -2,6 +2,10 @@
 
 This documentation is in the progress as we improve the Ronny Robot on every Hackathon, PiJam or other event.
 
+[Twitter Account](https://twitter.com/ronny_the_robot)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LsjcD4EhI34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Block diagram
 
 The hearth is Raspberry Pi. There are two BigClown Core Modules. One for controlling and smooth interpolation of 9 servos, the other for two DC motor drivers for the wheels.
